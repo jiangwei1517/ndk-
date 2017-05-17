@@ -1,4 +1,7 @@
 # NDK差分包生成合并
+
+## 项目链接
+
 之前NDK环境一直都是基于gradle-experimental，这里有个坑，一直以为找不到生成的so文件，其实build后的so文件存在与intermediates/binares下面:
 
 * Android Studio使用gradle-experimental构建NDK工程(无需Android.mk、Application.mk文件)
