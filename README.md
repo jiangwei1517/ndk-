@@ -1,7 +1,9 @@
 # NDK差分包生成合并
 
 ## 项目链接
+<https://github.com/jiangwei1517/AndroidStudioNdk->
 
+## 正文
 之前NDK环境一直都是基于gradle-experimental，这里有个坑，一直以为找不到生成的so文件，其实build后的so文件存在与intermediates/binares下面:
 
 * Android Studio使用gradle-experimental构建NDK工程(无需Android.mk、Application.mk文件)
@@ -86,3 +88,6 @@ React Native 飞行日记——bsdiff源码编译
 
 *  BsDiff下载链接：<http://www.daemonology.net/bsdiff/>
 *  Bzip2下载链接：<http://www.bzip.org/downloads.html>
+
+### 注意：
+项目的SD卡路径下记得放一个old.apk和一个patch.apk文件。patch方法根据old和patch生成一个new1.apk文件。
