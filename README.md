@@ -89,5 +89,10 @@ React Native 飞行日记——bsdiff源码编译
 *  BsDiff下载链接：<http://www.daemonology.net/bsdiff/>
 *  Bzip2下载链接：<http://www.bzip.org/downloads.html>
 
+### 差量更新不稳定
+当代码相同很多时，patch包很少。
+
+当代码不同很多时，patch包很大。
+
 ### 注意：
 项目的SD卡路径下记得放一个old.apk和一个patch.apk文件。patch方法根据old和patch生成一个new1.apk文件。
